@@ -1,0 +1,23 @@
+/* Your code goes here */
+.container{
+    /*beginning statement to enact flexbox*/
+    display: flex;
+    /*This tells the boxes to line up normally. left to right*/
+    flex-direction: row;
+    /*Tells boxes to move to the right side of the screen*/
+    float: right;
+    /*Places borders around all boxes(area outside of boxes)*/
+    border: 1px solid #ffffff;
+/*    Expands the container size 100%*/
+    width: 100%;
+    /*Pushes the boxes to the right. Flex direction tells what direction you want the boxes to go*/
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+/*applies to the div inside the container*/
+.container div{
+    /*Does not push the divs to the right inside the container as you would expect*/
+    float: right;
+}
+
